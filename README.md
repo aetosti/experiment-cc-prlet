@@ -16,7 +16,7 @@ virt/Scripts/activate
 pip install -r requirements.txt
 ```
 ###  Mac or Linux:
-1. python3 -m venv virt
+1.  Open the command prompt and create a new virtual environment named "virt"
 ```
 python -m venv virt
 ```
