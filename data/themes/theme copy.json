@@ -1,0 +1,170 @@
+{
+    "label":
+    {
+        "colours":
+        {
+            "normal_text": "#e3e3e3"
+        },
+        "font":
+        {
+            "name": "poppins",
+            "size": "14",
+            "bold": "1",
+            "italic": "0",
+            "regular_resource": { "package": "data.fonts", "resource": "Poppins-Light.ttf"},
+            "bold_resource": { "package": "data.fonts", "resource": "Poppins-Bold.ttf"},
+            "italic_resource": { "package": "data.fonts", "resource": "Poppins-Italic.ttf"},
+            "bold_italic_resource": { "package": "data.fonts", "resource": "Poppins-BoldItalic.ttf"}
+        }
+    },
+
+    "text_entry_line":
+    {
+        "colours":
+        {
+            "normal_text": "#e3e3e3"
+        },
+        "font":
+        {
+            "name": "poppins",
+            "size": "14",
+            "bold": "1",
+            "italic": "0",
+            "regular_resource": { "package": "data.fonts", "resource": "Poppins-Light.ttf"},
+            "bold_resource": { "package": "data.fonts", "resource": "Poppins-Bold.ttf"},
+            "italic_resource": { "package": "data.fonts", "resource": "Poppins-Italic.ttf"},
+            "bold_italic_resource": { "package": "data.fonts", "resource": "Poppins-BoldItalic.ttf"}
+        },
+        "misc":
+        {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": 5,
+            "border_width": "2",
+            "shadow_width": "2",
+            "padding": "6,4"
+        }
+    },
+    "drop_down_menu":
+    {
+        "misc":
+        {
+            "expand_direction": "down"
+        },
+
+        "colours":
+        {
+            "normal_bg": "#25292e",
+            "hovered_bg": "#35393e"
+        }
+    },
+    "drop_down_menu.#selected_option":
+    {
+        "font":
+        {
+            "name": "poppins",
+            "size": "14",
+            "bold": "1",
+            "italic": "0",
+            "regular_resource": { "package": "data.fonts", "resource": "Poppins-Light.ttf"},
+            "bold_resource": { "package": "data.fonts", "resource": "Poppins-Bold.ttf"},
+            "italic_resource": { "package": "data.fonts", "resource": "Poppins-Italic.ttf"},
+            "bold_italic_resource": { "package": "data.fonts", "resource": "Poppins-BoldItalic.ttf"}
+        }
+    },
+
+    "drop_down_menu.#drop_down_options_list.button":
+    {
+        "font":
+        {
+            "name": "poppins",
+            "size": "14",
+            "bold": "1",
+            "italic": "0",
+            "regular_resource": { "package": "data.fonts", "resource": "Poppins-Light.ttf"},
+            "bold_resource": { "package": "data.fonts", "resource": "Poppins-Bold.ttf"},
+            "italic_resource": { "package": "data.fonts", "resource": "Poppins-Italic.ttf"},
+            "bold_italic_resource": { "package": "data.fonts", "resource": "Poppins-BoldItalic.ttf"}
+        }
+    },
+    "button":
+    {
+        "colours":
+        {
+            "normal_bg": "#25292e",
+            "hovered_bg": "#35393e",
+            "disabled_bg": "#25292e",
+            "selected_bg": "#25292e",
+            "active_bg": "#193784",
+            "normal_text": "#c5cbd8",
+            "hovered_text": "#FFFFFF",
+            "selected_text": "#FFFFFF",
+            "disabled_text": "#6d736f",
+            "active_text": "#6d736f",
+            "normal_border": "#AAAAAA",
+            "hovered_border": "#B0B0B0",
+            "disabled_border": "#808080",
+            "selected_border": "#8080B0",
+            "active_border": "#8080B0",
+            "normal_text_shadow": "#10101070",
+            "hovered_text_shadow": "#10101070",
+            "disabled_text_shadow": "#10101070",
+            "selected_text_shadow": "#10101070",
+            "active_text_shadow": "#10101070"
+        },
+        "font":
+        {
+            "name": "poppins",
+            "size": "14",
+            "bold": "1",
+            "italic": "0",
+            "regular_resource": { "package": "data.fonts", "resource": "Poppins-Light.ttf"},
+            "bold_resource": { "package": "data.fonts", "resource": "Poppins-Bold.ttf"},
+            "italic_resource": { "package": "data.fonts", "resource": "Poppins-Italic.ttf"},
+            "bold_italic_resource": { "package": "data.fonts", "resource": "Poppins-BoldItalic.ttf"}
+        },
+        "images":
+        {
+            "normal_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "0,0,32,32"
+            },
+            "hovered_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "32,0,32,32"
+            },
+            "selected_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "64,0,32,32"
+            },
+            "disabled_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "96,0,32,32"
+            }
+
+        },
+        "misc":
+        {
+            "border_width": "1",
+            "shadow_width": "1",
+            "tool_tip_delay": "1.0",
+            "text_horiz_alignment": "left",
+            "text_vert_alignment": "top",
+            "text_horiz_alignment_padding": "10",
+            "text_vert_alignment_padding": "5",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "0,0",
+            "state_transitions":
+            {
+                "normal_hovered": "0.5",
+                "hovered_normal": "0.5"
+            }
+        }
+    }
+
+}
+
+
