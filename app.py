@@ -66,23 +66,13 @@ class App(object):
         while not self.done:
             self.dt = self.clock.tick(
                 self.fps
-            )  # created self.dt instead of dt in case you want to use elsewhere
-            """
-            Moved the face mesh processing and results to within base stage. The idea is that instead of processing 
-            self.mesh_points for every stage you only do it for the stages that require it (im guessing based one your 
-            code that splash stage and stage_one don't need the coordinates). Now if your stage requires the points
-            it runs self.get_points() which uses the face_mesh and cap passed from Game.update()
-            
-            Doing it this way ensures the camera and cv2 only does work when it needs to. No need to waste CPU cycles if
-            its not needed.
 
-            """
             self.event_loop()
             self.update()
             self.draw()
 
             pygame.display.update()
-        self.face_mesh.close()  # Closed manually as we are not using with functionality anymore
+        self.face_mesh.close() 
 
     def set_font_size(self):
         font_size = self.screen.get_width() // 45
